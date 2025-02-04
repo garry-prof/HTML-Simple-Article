@@ -1,0 +1,173 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Resets default margin and padding for all elements */
+}
+
+body {
+  font-family: "Arial", sans-serif; /* Sets the default font */
+  line-height: 1.6; /* Improves readability with more space between lines */
+  color: #333; /* Default text color */
+  background-color: #f9f9f9; /* Light gray background for the page */
+  padding: 20px; /* Adds padding around the body */
+}
+
+/* Header Styles */
+.mainheader {
+  background-color: #333; /* Dark background for the header */
+  color: #fff; /* White text color */
+  padding: 20px; /* Adds padding inside the header */
+  text-align: center; /* Centers the header content */
+  margin-bottom: 40px; /* Adds space below the header */
+}
+
+.mainheader h1 {
+  font-size: 36px; /* Large font size for the main title */
+  margin-bottom: 10px; /* Adds space below the title */
+}
+
+.mainheader nav {
+  margin-top: 10px; /* Adds space above the navigation links */
+}
+
+.mainheader nav a {
+  color: #fff; /* White color for navigation links */
+  text-decoration: none; /* Removes underline from links */
+  margin: 0 15px; /* Adds space between navigation links */
+  font-size: 18px; /* Sets font size for navigation links */
+}
+
+.mainheader nav a:hover {
+  color: #ff6f61; /* Changes link color on hover */
+}
+
+/* Article Styles */
+article {
+  max-width: 800px; /* Limits the width of the article for better readability */
+  margin: 0 auto; /* Centers the article on the page */
+  background-color: #fff; /* White background for the article */
+  padding: 30px; /* Adds padding inside the article */
+  border-radius: 10px; /* Rounds the corners of the article */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+article h2 {
+  font-size: 32px; /* Large font size for the article title */
+  margin-bottom: 20px; /* Adds space below the title */
+  color: #333; /* Dark text color */
+}
+
+article img {
+  max-width: 100%; /* Ensures images are responsive */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px; /* Rounds the corners of images */
+  margin-bottom: 20px; /* Adds space below images */
+}
+
+#author {
+  font-style: italic; /* Italicizes the author's name */
+  color: #777; /* Light gray color for the author's name */
+  margin-bottom: 20px; /* Adds space below the author's name */
+}
+
+article p {
+  font-size: 18px; /* Sets font size for paragraphs */
+  margin-bottom: 20px; /* Adds space below paragraphs */
+  color: #555; /* Dark gray color for text */
+}
+
+article h3 {
+  font-size: 28px; /* Medium font size for subheadings */
+  margin-bottom: 15px; /* Adds space below subheadings */
+  color: #333; /* Dark text color */
+}
+
+article h4 {
+  font-size: 24px; /* Smaller font size for subheadings */
+  margin-bottom: 15px; /* Adds space below subheadings */
+  color: #333; /* Dark text color */
+}
+
+article ol,
+article ul {
+  margin-left: 40px; /* Adds indentation to lists */
+  margin-bottom: 20px; /* Adds space below lists */
+}
+
+article ol li,
+article ul li {
+  font-size: 18px; /* Sets font size for list items */
+  margin-bottom: 10px; /* Adds space between list items */
+  color: #555; /* Dark gray color for list items */
+}
+
+article a {
+  color: #ff6f61; /* Coral color for links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+article a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Aside Styles */
+aside {
+  margin-top: 40px; /* Adds space above the aside section */
+  padding-top: 20px; /* Adds padding at the top of the aside */
+  border-top: 2px solid #eee; /* Adds a light gray border at the top */
+}
+
+aside h5 {
+  font-size: 24px; /* Medium font size for the aside title */
+  margin-bottom: 20px; /* Adds space below the title */
+  color: #333; /* Dark text color */
+}
+
+.related {
+  list-style: none; /* Removes bullet points from the list */
+}
+
+.related li {
+  display: flex; /* Displays list items in a flex container */
+  align-items: center; /* Aligns items vertically */
+  margin-bottom: 20px; /* Adds space between list items */
+}
+
+.related img {
+  width: 100px; /* Sets a fixed width for images */
+  height: 100px; /* Sets a fixed height for images */
+  border-radius: 10px; /* Rounds the corners of images */
+  margin-right: 20px; /* Adds space between images and text */
+}
+
+.related a {
+  font-size: 18px; /* Sets font size for links */
+  color: #333; /* Dark text color */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.related a:hover {
+  color: #ff6f61; /* Changes link color on hover */
+}
+
+.related p {
+  font-size: 14px; /* Smaller font size for author names */
+  color: #777; /* Light gray color for author names */
+  margin-top: 5px; /* Adds space above author names */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center; /* Centers the footer content */
+  margin-top: 40px; /* Adds space above the footer */
+  padding: 20px; /* Adds padding inside the footer */
+  background-color: #333; /* Dark background for the footer */
+  color: #fff; /* White text color */
+  border-radius: 10px; /* Rounds the corners of the footer */
+}
+
+footer p {
+  font-size: 16px; /* Sets font size for footer text */
+}
